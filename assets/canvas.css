@@ -45,11 +45,10 @@ table {
 
 
 
+/*Canvas and notes*/
 
-
-.minified {
-  position: absolute;
-  width: 200px;
+.content {
+  display: flex;
 }
 
 #canvascontainer {
@@ -60,6 +59,27 @@ table {
 
 #canvas{
   position: absolute;
+}
+
+.minified {
+  position: absolute;
+  width: 200px;
+}
+
+
+/*Bottom*/
+
+a img{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.links {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*body {
@@ -135,11 +155,13 @@ body h1{
 #color {
   width: 50px;
   cursor: pointer;
+  display: none;
 }
 
 #size {
   width: 100px;
   cursor: pointer;
+  display: none;
 }
 
 

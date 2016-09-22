@@ -13,7 +13,7 @@
 
       <div class="interface">
 
-        <section>
+        <!-- <section>
           <label>Color:</label>
           <input id="color" class="jscolor" value="#000000"></input>
         </section>
@@ -21,7 +21,7 @@
         <section>
           <label>Size:</label>
           <input id="size" type="range" min="100" max="1000" value="300"></input>
-        </section>
+        </section> -->
 
         <section>
           <label>Mode:</label>
@@ -31,14 +31,24 @@
           </div>
         </section>
 
-
-
         <button id="clear">Clear</button>
+
+        <section>
+          <label>What happens next?</label>
+          <div class="textareacontainer">
+            <textarea id="currentnote" rows="4" cols="35"></textarea>
+          </div>
+          <button type="button" onclick="processNote()">Submit</button>
+
+          <label>Your full story:</label>
+          <div class="fullstory">
+            <textarea id="allnotes" rows="40" cols="35"></textarea>
+          </div>
+        </section>
       </div>
 
-      <textarea id="currentnote" rows="4" cols="35"></textarea>
 
-      <button type="button" onclick="processNote()">Submit</button>
+
       <div id="canvascontainer">
         <canvas id="canvas" width="1000" height="600"></canvas>
         <div id="notes">
