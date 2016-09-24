@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>WaterColor</title>
+    <title>Tell Me A Story</title>
     <link rel="stylesheet" href="./assets/canvas.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
     <script type="text/javascript" src="./lib//bundle/bundle.js"></script>
@@ -13,28 +13,30 @@
 
       <div class="interface">
 
-        <section>
-          <label>Mode:</label>
-          <div class='options'>
-            <div id="default">Seraphic Fate</div>
-            <div id="night">Dreaded Radius</div>
-          </div>
-        </section>
 
-        <button id="clear">Clear All</button>
 
         <section>
           <label>What happens next?</label>
           <div class="textareacontainer">
-            <textarea id="currentnote" rows="4" cols="35"></textarea>
+            <textarea id="currentnote" rows="4" cols="30"></textarea>
           </div>
-          <button type="button" onclick="processNote()">Submit</button>
+          <div class="buttoncontainer"><button type="button" onclick="processNote()">Submit</button></div>
 
           <label>Your story:</label>
           <div class="fullstory">
-            <textarea id="allnotes" rows="40" cols="35"></textarea>
+            <textarea id="allnotes" rows="24" cols="30"></textarea>
           </div>
         </section>
+
+        <div class="buttoncontainer"><button id="clear">Clear All</button></div>
+
+        <section>
+          <label>Mode:</label>
+          <div class='options'>
+            <span id="default">Seraph </span>/<span id="night"> Dread</span>
+          </div>
+        </section>
+
       </div>
 
 
@@ -50,7 +52,7 @@
 
 
   <div class="links">
-    Built with Water Colors by Jangmi Jo: <a href="https://github.com/evdel720"><img src="https://res.cloudinary.com/wkdal720/image/upload/v1473910794/watercolor/github_c54tsu.png"/></a>
+    Built with Water Colors by Jangmi Jo <a href="https://github.com/evdel720"><img src="https://res.cloudinary.com/wkdal720/image/upload/v1473910794/watercolor/github_c54tsu.png"/></a> and Saif Mohammad's <a id="emolex" href="http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm">EmoLex</a>
   </div>
 
 
