@@ -50,6 +50,20 @@ textarea{
 
 /*Canvas and notes*/
 
+#splash{
+	position: absolute;
+	background-color: black;
+	color: white;
+	z-index: 3;
+	font-size: 48px;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	opacity: .9;
+	justify-content: center;
+	align-items: center;
+}
+
 .content {
   display: flex;
 }
@@ -58,6 +72,7 @@ textarea{
   position: relative;
   width: 1000px;
   height: 600px;
+	padding-left: 20px;
 }
 
 #canvas{
@@ -96,7 +111,28 @@ textarea{
 }
 
 .interface{
+	padding: 20px;
 	text-align: center;
+}
+
+#notecontainer{
+	padding: 5px;
+}
+
+#allnotescontainer{
+	padding: 5px;
+}
+
+#modecontainer{
+	padding-top: 5px;
+}
+
+.buttoncontainer{
+	padding: 5px 0 10px 0;
+}
+
+#default{
+	text-decoration: underline;
 }
 
 /*Bottom*/
