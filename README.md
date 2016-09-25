@@ -1,6 +1,6 @@
 ## Colortale
 
-Live link <a href="angrobertsh.github.io/colortale">here!</a>
+Live link [here!](https://angrobertsh.github.io/colortale/)
 
 ### Background
 
