@@ -26,6 +26,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-image: url("http://res.cloudinary.com/dujcpxlhk/image/upload/v1476134129/ppetbqlvzr3ussgu9d1v.jpg");
+	background-size: cover;
 }
 ol, ul {
 	list-style: none;
@@ -45,6 +47,15 @@ table {
 
 textarea{
 	font-family: 'Philosopher', sans-serif;
+	padding: 8px;
+}
+
+label{
+	color: white;
+}
+
+span{
+	color: white;
 }
 
 /*Basic layout and splash*/
@@ -75,11 +86,13 @@ textarea{
 }
 
 #notecontainer{
-	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #allnotescontainer{
-	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #modecontainer{
@@ -87,7 +100,7 @@ textarea{
 }
 
 .buttoncontainer{
-	padding: 5px 0 10px 0;
+	padding: 0 0 10px 0;
 }
 
 #default{
@@ -100,7 +113,6 @@ textarea{
   position: relative;
   width: 1000px;
   height: 600px;
-	padding-left: 20px;
 }
 
 #canvas{
