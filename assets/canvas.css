@@ -54,10 +54,6 @@ label{
 	color: white;
 }
 
-span{
-	color: white;
-}
-
 /*Basic layout and splash*/
 
 #splash{
@@ -105,6 +101,10 @@ span{
 
 #default{
 	text-decoration: underline;
+}
+
+.options{
+	color: white;
 }
 
 /*Canvas and notes*/
